@@ -2,7 +2,7 @@ require 'scraperwiki'
 require 'mechanize'
 require 'date'
 
-base_url = "http://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
+base_url = "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
 comment_url = "mailto:council@wollondilly.nsw.gov.au"
 
 time = Time.new
@@ -24,7 +24,7 @@ puts "Scraping from " + dateFrom + " to " + dateTo + ", changable via MORPH_PERI
 agent = Mechanize.new
 
 params = OpenSSL::SSL::SSLContext::DEFAULT_PARAMS
-params[:ssl_version] = :TLSv1
+params[:ssl_version] = :TLSv1_1
 #params[:ciphers] = ['DES-CBC3-SHA']
 OpenSSL::SSL::SSLContext::DEFAULT_PARAMS = params
 
