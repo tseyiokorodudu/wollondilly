@@ -22,6 +22,17 @@ end
 puts "Scraping from " + dateFrom + " to " + dateTo + ", changable via MORPH_PERIOD variable"
 
 agent = Mechanize.new
+
+# This is a heavy-handed way to change the ciphers so we can connect to this
+# really badly configured web server. The magic for this was discovered in:
+# https://stackoverflow.com/questions/33572956/ruby-ssl-connect-syscall-returned-5-errno-0-state-unknown-state-opensslssl
+# This allows it to work with Mechanize. You'll see a warning because we're
+# redefining a constant.
+params = OpenSSL::SSL::SSLContext::DEFAULT_PARAMS
+params[:ssl_version] = :TLSv1
+params[:ciphers] = ['DES-CBC3-SHA']
+OpenSSL::SSL::SSLContext::DEFAULT_PARAMS = params
+
 basepage = agent.get(base_url)
 datepage = basepage.iframes.first.click
 
