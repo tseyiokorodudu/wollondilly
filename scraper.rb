@@ -22,6 +22,7 @@ end
 puts "Scraping from " + dateFrom + " to " + dateTo + ", changable via MORPH_PERIOD variable"
 
 agent = Mechanize.new
+agent.verify_mode = OpenSSL::SSL::VERIFY_NONE
 basepage = agent.get(base_url)
 datepage = basepage.iframes.first.click
 
