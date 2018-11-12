@@ -2,6 +2,12 @@ require 'scraperwiki'
 require 'mechanize'
 require 'date'
 
+class Hash
+  def has_blank?
+    self.values.any?{|v| v.nil? || v.length == 0}
+  end
+end
+
 base_url = "https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm"
 comment_url = "mailto:council@wollondilly.nsw.gov.au"
 
