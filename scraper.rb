@@ -42,13 +42,13 @@ results = formpage.at('div.bodypanel ~ div')
 count = results.search("h4").size - 1
 for i in 0..count
   record = {}
-  record['council_reference'] = results.search('span[contains("Application No.")] ~ span')[i].text
-  record['address']           = results.search('h4')[i].text.gsub('  ', ', ')
-  record['description']       = results.search('span[contains("Type of Work")] ~ span')[i].text
+  record['council_reference'] = results.search('span[contains("Application No.")] ~ span')[i].text rescue nil
+  record['address']           = results.search('h4')[i].text.gsub('  ', ', ') rescue nil
+  record['description']       = results.search('span[contains("Type of Work")] ~ span')[i].text rescue nil
   record['info_url']          = base_url
   record['comment_url']       = comment_url
   record['date_scraped']      = Date.today.to_s
-  record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s
+  record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
 
   unless record.has_blank?
     if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
