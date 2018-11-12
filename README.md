@@ -1,6 +1,7 @@
 # Wollondilly Shire Council Scraper
 
 Wollondilly Shire Council involves the followings
+
 * Server - .NET but Java backend
 * Cookie tracking - Yes - JSESSION
 * Pagnation - No - However, query is based on 'date' submit via POST
@@ -9,6 +10,7 @@ Wollondilly Shire Council involves the followings
 * iFrame - Why??
 
 Setup MORPH_PERIOD for data recovery, available options are
+
 * thisweek (default, today -7 days)
 * thismonth
 * lastmonth
