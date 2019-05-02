@@ -51,13 +51,9 @@ for i in 0..count
   record['date_received']     = Date.strptime(results.search('span[contains("Date Lodged")] ~ span')[i].text, '%d/%m/%Y').to_s rescue nil
 
   unless record.has_blank?
-    if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
-      puts "Saving record " + record['council_reference'] + ", " + record['address']
+    puts "Saving record " + record['council_reference'] + ", " + record['address']
 #       puts record
-      ScraperWiki.save_sqlite(['council_reference'], record)
-    else
-      puts "Skipping already saved record " + record['council_reference']
-    end
+    ScraperWiki.save_sqlite(['council_reference'], record)
   else
     puts "Something not right here: #{record}"
   end
