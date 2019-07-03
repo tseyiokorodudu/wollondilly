@@ -1,0 +1,982 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - ecouncil.wollondilly.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/html
+      Last-Modified:
+      - Mon, 17 Nov 2014 01:19:45 GMT
+      Accept-Ranges:
+      - bytes
+      Etag:
+      - '"38f8af9242d01:0"'
+      X-Powered-By:
+      - ARR/3.0
+      - ASP.NET
+      - ASP.NET
+      Date:
+      - Wed, 03 Jul 2019 06:38:01 GMT
+      Content-Length:
+      - '1104'
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n<LINK href=\"eServeStyle.css\"
+        rel=\"stylesheet\" type=\"text/css\">\r\n\r\n<SCRIPT TYPE=\"text/javascript\">\r\n<!--\r\n\r\nfunction
+        popup(mylink, windowname)\r\n{\r\nif (! window.focus)return true;\r\nvar href;\r\nif
+        (typeof(mylink) == 'string')\r\n   href=mylink;\r\nelse\r\n   href=mylink.href;\r\nwindow.open(href,
+        windowname, 'width=500,height=500,scrollbars=yes');\r\nreturn false;\r\n}\r\n//-->\r\n</SCRIPT>\r\n\r\n</head>\r\n\r\n<body>\r\n<div
+        ID=\"wrap\">\r\n<ul>\r\n<li><a href=\"eServeHome.htm\">Home</a></li>\r\n<li><a
+        href=\"eServeDAEnq.htm\">DA Enquiry</a></li>\r\n<li><a href=\"eServeCompDAEnq.htm\">Complying
+        Enquiry</a></li>\r\n<!--<li><a href=\"#eServePayments.htm\">Online Payments</a></li>;-->\r\n<li><a
+        href=\"eServeHelp.htm\" onClick=\"return popup(this,'eCouncilHelp')\">Help</a></li>\r\n</ul>\r\n\r\n<table
+        width=\"680\" height=\"650\">\r\n  <tr>\r\n    <td width=\"100%\" height=\"100%\"
+        align=\"left\" valign=\"top\">\r\n      <iframe width=\"100%\" height=\"100%\"
+        frameborder=\"0\" src=\"https://ecouncil.wollondilly.nsw.gov.au/eservice/dialog/daEnquiryInit.do?nodeNum=40801\">\r\n
+        \     </iframe>\r\n    </td>\r\n  </tr>\r\n</table>\r\n\r\n</div>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://ecouncil.wollondilly.nsw.gov.au/eservice/dialog/daEnquiryInit.do?nodeNum=40801
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - ecouncil.wollondilly.nsw.gov.au
+      Referer:
+      - https://ecouncil.wollondilly.nsw.gov.au/eServeDAEnq.htm
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache,no-store,max-age=0,must-revalidate,proxy-revalidate
+      Pragma:
+      - No-cache
+      Content-Type:
+      - text/html
+      Content-Language:
+      - en-AU
+      Expires:
+      - '0'
+      Set-Cookie:
+      - JSESSIONID_live=0000RNuAGZ9mYlEOMX4JMTwpDvF:-1; Path=/
+      X-Powered-By:
+      - ARR/3.0
+      - ASP.NET
+      - ASP.NET
+      Date:
+      - Wed, 03 Jul 2019 06:38:01 GMT
+      Content-Length:
+      - '27265'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n    \r\n        \r\n\t        \r\n
+        \       \r\n          \r\n  \r\n\r\n\r\n\r\n      \r\n      \r\n\r\n\r\n\r\n
+        \     \r\n\t  \r\n      \r\n      \r\n\r\n\r\n\r\n    \r\n    \r\n        \r\n
+        \       \r\n    \r\n\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"
+        \"http://www.w3.org/TR/html4/strict.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=UTF-8\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1, maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tWollondilly
+        Shire Council - Authority LIVE\r\n\t\t</title>\r\n\t\t<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/bootstrap-335.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/jquery-ui.structure.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/daEnquiry_daEnquiry.css\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<!--[if IE 6]>\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/ie6.css\" type=\"text/css\" media=\"screen,
+        projection\" >\r\n<![endif]-->\r\n<!--[if IE 8]>\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/ie8.css\" type=\"text/css\" media=\"screen,
+        projection\" >\r\n<![endif]-->\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/custom.css\" type=\"text/css\" media=\"screen, projection,
+        print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/hide-navigation.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n\r\n\t\t<script>var
+        AUTHJS = {};AUTHJS.productName = \"i-Services\";</script>\r\n<script type=\"text/javascript\"
+        src=\"/eservice/dialog/jscalendar-1.0/calendar.js\"></script>\r\n<script type=\"text/javascript\"
+        src=\"/eservice/dialog/javascript/jquery/jquery-1.11.3.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/dialog/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery/bootstrap-335.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery.metadata.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/dialog/javascript/da.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\t\t<script
+        src=\"/eservice/dialog/javascript/mkTree.js\" type=\"text/javascript\"></script>\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span>Wollondilly Shire Council</span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tWollondilly
+        Shire Council\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/dialog/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/dialog/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t<div
+        id=\"bcpanel\">\r\n\t\t\t<div class=\"container\" id=\"bcpanel-container\">\r\n\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\t<ul
+        id=\"breadcrumbs\">\r\n\r\n            \r\n\r\n            \r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t<li
+        >\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t
+        \   \r\n\t\t\t\t\t\t    \r\n\t\t\t            \t    <a href=\"/eservice/dialog/start.do?nodeNum=272&nodeNum=272\"
+        onclick=\"openSearchResultParent(272);return false;\">Development Applications</a>\r\n\t\t\t
+        \           \t\r\n\t\t\t            \r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t<li
+        class=\"last-node\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a
+        href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801\">Development Application
+        Enquiry</a> \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t</ul>\t\t\t\r\n\t\t\r\n\r\n\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<!--
+        End Masthead navbar -->\r\n\r\n\r\n\t\t<div id=\"content\">\r\n\r\n\t\t\t<div
+        class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div class=\"row\"
+        id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/dialog/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\"
+        class=\"panel-min-max\" id=\"panel-min-max-1\" >\r\n<img src=\"/eservice/dialog/icons/minimise.gif\"
+        alt=\"Minimise\" />\r\n</a>\r\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/dialog/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/dialog/icons/loading.gif\" alt=\"loading\" class=\"loading\"
+        id=\"menu-search-loading\" />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!--
+        div id=\"search-autocomplete\" class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/dialog/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/dialog/icons/parent.gif\" alt=\"Return
+        to \" />Development Applications                          </a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiry/currentlyAdvertised.do?nodeNum=273\"
+        class=\"linkitem\" id=\"node-273\">Advertised Applications</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiry/recentlyDetermined.do?num_days=31&nodeNum=274\"
+        class=\"linkitem\" id=\"node-274\">Determined Applications</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiryInit.do?doc_typ=18&nodeNum=43785\"
+        class=\"linkitem\" id=\"node-43785\">Complying Development Enquiry</a>\r\n
+        \       </li>\r\n  \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n
+        \   \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801\"
+        class=\"linkitem\" id=\"node-40801\">Development Application Enquiry</a>\r\n
+        \       </li>\r\n  \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t
+        \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/dialog/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/dialog/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/dialog/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\"
+        class=\"panel-min-max\" id=\"panel-min-max-2\" >\r\n<img src=\"/eservice/dialog/icons/minimise.gif\"
+        alt=\"Minimise\" />\r\n</a>\r\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul
+        id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li id=\"recently-used-0\">\r\n
+        \                               <a href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801\"
+        class=\"linkitem\">Development Application Enquiry</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiry\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryDocumentTypeDefaultTypes\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\t<h1
+        class=\"functionHeader\">\r\n\t\t\t\r\n          \r\n          \r\n              Development
+        Application Enquiry\r\n          \r\n\t  \r\n\t\t\t\r\n\t\t</h1>\r\n\t\r\n\t\r\n\r\n\t\r\n\t\r\n<div
+        id=\"leftcontent\">\r\n\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n<div class=\"infopanel\">
+        \   \r\n\t<!-- CIVICA-INFO-START -->   \r\n\t\r\n        <div id=\"infopanel-header\">\r\n\t
+        \       <h4 class=\"entryHeader\" >\r\n\t            \r\n\t\tInstructions\r\n\t\t\r\n\t
+        \       </h4>\r\n        </div>\r\n\t\r\n    <div id=\"instructions-content\"
+        class=\"instructions\">\r\n\r\n        \r\n\r\n\r\n\r\n\r\n\r\nTo make an
+        enquiry enter some information that identifies the applications or properties
+        of interest.\r\n\r\n    </div>\r\n\r\n\t<!-- CIVICA-INFO-END -->\r\n</div>\r\n\r\n</div>\r\n<div
+        id=\"rightcontent\">\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n\r\n\r\n\r\n\r\n<div class=\"bodypanel\"
+        id=\"bodypanel1\">   \t\t\r\n\t<!-- CIVICA-CONTENT-START:bodypanel1 -->\r\n\t\r\n
+        \  <h4 class=\"non_table_headers\" >\r\n\t\t\r\n\t\t\r\n\t      \t\tApplication
+        Details\r\n\t        \r\n    </h4>\r\n\r\n\t\t<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div>\r\n
+        \ <form action=\"daEnquiry.do\" id=\"daEnquiryForm\" name=\"daEnquiryForm\"
+        class=\"form-horizontal\">\r\n    <fieldset>\r\n      <div class=\"form-group\">\r\n
+        \       <label class=\"col-sm-3 control-label\">DA Number</label>\r\n        <div
+        class=\"col-sm-9\">\r\n          <input type=\"text\" class=\"text-medium\"
+        name=\"number\" id=\"DANumber\" size=\"10\" maxlength=\"10\" errors=\"DANumber\"
+        value=\"\" />\r\n          <span class=\"subText\">eg 121/2005</span>\r\n
+        \       </div>\r\n      </div>\r\n      <p />\r\n      <p class=\"rowDataOnly\">\r\n
+        \       <span class=\"rowInfo\">\r\n          <strong>OR</strong>\r\n          use
+        any of the following search fields:\r\n        </span>\r\n      </p>\r\n      <p>\r\n
+        \       \r\n        &nbsp;\r\n        \r\n      </p>\r\n      <fieldset>\r\n
+        \       <h2>Lodgement Date</h2>\r\n        <div class=\"radio-inline-group\">\r\n
+        \         <label class=\"radio-inline\">\r\n            <input type=\"radio\"
+        name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('',
+        '', 'DADateFrom', 'DADateTo')\" />\r\n            <span class=\"radioText\">Specified
+        Range</span>\r\n          </label>\r\n          <label class=\"radio-inline\">\r\n
+        \           <input type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\"
+        onclick=\"javascript:setDateRange('30/06/2019','03/07/2019', 'DADateFrom',
+        'DADateTo')\" />\r\n            <span class=\"radioText\">This Week</span>\r\n
+        \         </label>\r\n          <label class=\"radio-inline\">\r\n            <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('23/06/2019','29/06/2019',
+        'DADateFrom', 'DADateTo')\" />\r\n            <span class=\"radioText\">Last
+        Week</span>\r\n          </label>\r\n          <label class=\"radio-inline\">\r\n
+        \           <input type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\"
+        onclick=\"javascript:setDateRange('01/07/2019','31/07/2019', 'DADateFrom',
+        'DADateTo')\" />\r\n            <span class=\"radioText\">This Month</span>\r\n
+        \         </label>\r\n          <label class=\"radio-inline\">\r\n            <input
+        type=\"radio\" name=\"lodgeRangeType\" id=\"lodgeRangeType\" onclick=\"javascript:setDateRange('01/06/2019','30/06/2019',
+        'DADateFrom', 'DADateTo')\" />\r\n            <span class=\"radioText\">Last
+        Month</span>\r\n          </label>\r\n        </div>\r\n        <div class=\"form-group\">\r\n
+        \         <span id=\"daFromDateRow\">\r\n            <label class=\"col-md-2
+        col-xs-3 control-label\" for=\"DADateFrom\" id=\"daFromDateLabel\">From</label>\r\n
+        \           <div class=\"inputField col-md-4 col-xs-9\" id=\"daFromDateInput\">\r\n
+        \             <input type=\"text\" class=\"datepick text-small\" name=\"dateFrom\"
+        id=\"DADateFrom\" size=\"10\" maxlength=\"10\" errors=\"DADateFrom\" value=\"\"
+        />\r\n            </div>\r\n          </span>\r\n          <span id=\"daToDateRow\">\r\n
+        \           <label class=\"col-md-2 col-xs-3 control-label\" for=\"DADateTo\"
+        id=\"daToDateLabel\">To</label>\r\n            <div class=\"inputField col-md-4
+        col-xs-9\" id=\"daToDateInput\">\r\n              <input type=\"text\" class=\"datepick
+        text-small\" name=\"dateTo\" id=\"DADateTo\" size=\"10\" maxlength=\"10\"
+        errors=\"DADateTo\" value=\"\" />\r\n            </div>\r\n          </span>\r\n
+        \       </div>\r\n      </fieldset>\r\n      <fieldset>\r\n        <h2>Determination
+        Date</h2>\r\n        <div class=\"radio-inline-group\">\r\n          <label
+        class=\"radio-inline\">\r\n            <input type=\"radio\" name=\"detRangeType\"
+        id=\"detRangeType\" onclick=\"javascript:setDateRange('','', 'detDateFromString',
+        'detDateToString')\" />\r\n            <span class=\"radioText\">Specified
+        Range</span>\r\n          </label>\r\n          <label class=\"radio-inline\">\r\n
+        \           <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\"
+        onclick=\"javascript:setDateRange('30/06/2019','03/07/2019', 'detDateFromString',
+        'detDateToString')\" />\r\n            <span class=\"radioText\">This Week</span>\r\n
+        \         </label>\r\n          <label class=\"radio-inline\">\r\n            <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('23/06/2019','29/06/2019',
+        'detDateFromString', 'detDateToString')\" />\r\n            <span class=\"radioText\">Last
+        Week</span>\r\n          </label>\r\n          <label class=\"radio-inline\">\r\n
+        \           <input type=\"radio\" name=\"detRangeType\" id=\"detRangeType\"
+        onclick=\"javascript:setDateRange('01/07/2019','31/07/2019', 'detDateFromString',
+        'detDateToString')\" />\r\n            <span class=\"radioText\">This Month</span>\r\n
+        \         </label>\r\n          <label class=\"radio-inline\">\r\n            <input
+        type=\"radio\" name=\"detRangeType\" id=\"detRangeType\" onclick=\"javascript:setDateRange('01/06/2019','30/06/2019',
+        'detDateFromString', 'detDateToString')\" />\r\n            <span class=\"radioText\">Last
+        Month</span>\r\n          </label>\r\n        </div>\r\n        <div class=\"form-group\">\r\n
+        \         <span id=\"daFromDateRow\">\r\n            <label class=\"col-md-2
+        col-xs-3 control-label\" for=\"detDateFromString\" id=\"daFromDateLabel\">From</label>\r\n
+        \           <div class=\"inputField col-md-4 col-xs-9\" id=\"detFromDateInput\">\r\n
+        \             <input type=\"text\" class=\"datepick text-small\" name=\"detDateFromString\"
+        id=\"detDateFromString\" size=\"10\" maxlength=\"10\" errors=\"DADateFrom\"
+        value=\"\" />\r\n            </div>\r\n          </span>\r\n          <span
+        id=\"daToDateRow\">\r\n            <label class=\"col-md-2 col-xs-3 control-label\"
+        for=\"detDateToString\" id=\"deToDateLabel\">To</label>\r\n            <div
+        class=\"inputField col-md-4 col-xs-9\" id=\"etToDateInput\">\r\n              <input
+        type=\"text\" class=\"datepick text-small\" name=\"detDateToString\" id=\"detDateToString\"
+        size=\"10\" maxlength=\"10\" errors=\"DADateTo\" value=\"\" />\r\n            </div>\r\n
+        \         </span>\r\n        </div>\r\n      </fieldset>\r\n      <fieldset>\r\n
+        \       <h2>Property Details</h2>\r\n        <div class=\"form-group\" id=\"streetNameRow\">\r\n
+        \         <label class=\"control-label col-sm-3\" for=\"streetName\">Street
+        Name</label>\r\n          <div class=\"col-sm-9\">\r\n            <input type=\"text\"
+        class=\"text-large\" name=\"streetName\" id=\"streetName\" size=\"20\" onblur=\"javascript:getHouseNum();
+        javascript:getSuburb()\" value=\"\" />\r\n            <div id=\"streetHints\"
+        class=\"autocompleter\">\r\n              \r\n              &nbsp;\r\n              \r\n
+        \           </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group\"
+        id=\"suburbDropdownRow\">\r\n          <label class=\"control-label col-sm-3\"
+        for=\"suburb\">Suburb</label>\r\n          <div class=\"col-sm-9\">\r\n            <div
+        id=\"suburbSelect\">\r\n              <select class=\"select-medium\" name=\"suburb\"
+        id=\"suburb\">\r\n                <option value=\"0\" selected=\"selected\">-
+        -None Selected- -</option>\r\n                <option value=\"1\">APPIN</option>\r\n
+        \               <option value=\"2\">BARGO</option>\r\n                <option
+        value=\"3\">BELIMBLA PARK</option>\r\n                <option value=\"5\">BROWNLOW
+        HILL</option>\r\n                <option value=\"4\">BUXTON</option>\r\n                <option
+        value=\"37\">CAMDEN PARK</option>\r\n                <option value=\"41\">CATARACT</option>\r\n
+        \               <option value=\"6\">CAWDOR</option>\r\n                <option
+        value=\"7\">COURIDJAH</option>\r\n                <option value=\"39\">CROWN
+        LANDS</option>\r\n                <option value=\"35\">DARKES FOREST</option>\r\n
+        \               <option value=\"8\">DOUGLAS PARK</option>\r\n                <option
+        value=\"36\">GLENMORE</option>\r\n                <option value=\"81\">GRASMERE</option>\r\n
+        \               <option value=\"9\">LAKESLAND</option>\r\n                <option
+        value=\"10\">MALDON</option>\r\n                <option value=\"11\">MENANGLE</option>\r\n
+        \               <option value=\"12\">MOUNT HUNTER</option>\r\n                <option
+        value=\"33\">MOWBRAY PARK</option>\r\n                <option value=\"31\">NATIONAL
+        PARK</option>\r\n                <option value=\"13\">NATTAI</option>\r\n
+        \               <option value=\"14\">OAKDALE</option>\r\n                <option
+        value=\"15\">ORANGEVILLE</option>\r\n                <option value=\"16\">PHEASANTS
+        NEST</option>\r\n                <option value=\"17\">PICTON</option>\r\n
+        \               <option value=\"32\">QUIGTOWN</option>\r\n                <option
+        value=\"18\">RAZORBACK</option>\r\n                <option value=\"19\">SILVERDALE</option>\r\n
+        \               <option value=\"20\">TAHMOOR</option>\r\n                <option
+        value=\"21\">THE OAKS</option>\r\n                <option value=\"22\">THERESA
+        PARK</option>\r\n                <option value=\"23\">THIRLMERE</option>\r\n
+        \               <option value=\"24\">WALLACIA</option>\r\n                <option
+        value=\"25\">WARRAGAMBA</option>\r\n                <option value=\"40\">WARRAGAMBA
+        CATCHMENT</option>\r\n                <option value=\"26\">WEDDERBURN</option>\r\n
+        \               <option value=\"38\">WENTWORTH FALLS</option>\r\n                <option
+        value=\"27\">WEROMBI</option>\r\n                <option value=\"28\">WILTON</option>\r\n
+        \               <option value=\"80\">WOLLONDILLY SHIRE</option>\r\n                <option
+        value=\"29\">YANDERRA</option>\r\n                <option value=\"30\">YERRANDERIE</option>\r\n
+        \             </select>\r\n            </div>\r\n          </div>\r\n        </div>\r\n
+        \       <div class=\"form-group\" id=\"unitNumberRow\">\r\n          <label
+        class=\"control-label col-sm-3\" for=\"unitNum\">Unit</label>\r\n          <div
+        class=\"col-sm-9\">\r\n            <input type=\"text\" class=\"text-mini\"
+        name=\"unitNum\" id=\"unitNum\" size=\"10\" value=\"\" />\r\n          </div>\r\n
+        \       </div>\r\n        <div class=\"form-group\" id=\"houseNumRow\">\r\n
+        \         <label class=\"control-label col-sm-3\" for=\"houseNum\">House No.</label>\r\n
+        \         <div class=\"col-sm-9\">\r\n            <div id=\"houseNumSelect\">\r\n
+        \             <select class=\"select-medium\" name=\"houseNum\" id=\"houseNum\">\r\n
+        \               <option value=\"0&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;\">- -None
+        Selected- -</option>\r\n              </select>\r\n            </div>\r\n
+        \         </div>\r\n        </div>\r\n        <div class=\"form-group\" id=\"planNumberRow\">\r\n
+        \         <label class=\"control-label col-sm-3\" for=\"planNumber\">Plan</label>\r\n
+        \         <div class=\"col-sm-9\">\r\n            <input type=\"text\" class=\"text-small\"
+        name=\"planNumber\" id=\"planNumber\" size=\"10\" value=\"\" />\r\n          </div>\r\n
+        \       </div>\r\n        <div class=\"form-group\" id=\"strataPlanRow\">\r\n
+        \         <label class=\"control-label col-sm-3\" for=\"strataPlan\">Strata
+        Plan</label>\r\n          <div class=\"col-sm-9\">\r\n            <input type=\"text\"
+        class=\"text-small\" name=\"strataPlan\" id=\"strataPlan\" size=\"10\" value=\"\"
+        />\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group\"
+        id=\"lotRow\">\r\n          <label class=\"control-label col-sm-3\" for=\"lotNumber\">Lot</label>\r\n
+        \         <div class=\"col-sm-9\">\r\n            <input type=\"text\" class=\"text-small\"
+        name=\"lotNumber\" id=\"lotNumber\" size=\"10\" value=\"\" />\r\n          </div>\r\n
+        \       </div>\r\n        <div class=\"form-group\" id=\"propertyNameRow\">\r\n
+        \         <label class=\"control-label col-sm-3\" for=\"propertyName\">Place</label>\r\n
+        \         <div class=\"col-sm-9\">\r\n            <input type=\"text\" class=\"text-large\"
+        name=\"propertyName\" id=\"propertyName\" size=\"20\" value=\"\" />\r\n          </div>\r\n
+        \       </div>\r\n      </fieldset>\r\n      <p class=\"rowDataOnly\">\r\n
+        \       <span class=\"rowInfo\">\r\n          <strong>AND</strong>\r\n          the
+        following search field:\r\n        </span>\r\n      </p>\r\n      <p>\r\n
+        \       \r\n        &nbsp;\r\n        \r\n      </p>\r\n      <fieldset>\r\n
+        \       <h2>Options</h2>\r\n        <div class=\"radio\">\r\n          <label>\r\n
+        \           <input type=\"radio\" name=\"searchMode\" value=\"A\" id=\"searchModeA\"
+        checked=\"checked\" />\r\n            All DAs\r\n          </label>\r\n        </div>\r\n
+        \       <div class=\"radio\">\r\n          <label>\r\n            <input type=\"radio\"
+        name=\"searchMode\" value=\"D\" id=\"searchModeD\" />\r\n            Determined
+        DAs\r\n          </label>\r\n        </div>\r\n        <div class=\"radio\">\r\n
+        \         <label>\r\n            <input type=\"radio\" name=\"searchMode\"
+        value=\"P\" id=\"searchModeP\" />\r\n            DAs Awaiting Decision\r\n
+        \         </label>\r\n        </div>\r\n        <div class=\"radio\">\r\n
+        \         <label>\r\n            <input type=\"radio\" name=\"searchMode\"
+        value=\"C\" id=\"searchModeC\" />\r\n            Currently Advertised DAs\r\n
+        \         </label>\r\n        </div>\r\n      </fieldset>\r\n    </fieldset>\r\n
+        \   <div class=\"button-panel\">\r\n      <input type=\"submit\" name=\"submitButton\"
+        class=\"button\" value=\"Search\" onclick=\"javascript:checkDetDatesMakeSense()\"
+        />\r\n      <input type=\"button\" name=\"clearButton\" class=\"button\" value=\"Clear\"
+        onclick=\"javascript:clearDaEnquiryFields()\" />\r\n    </div>\r\n  </form>\r\n</div>\r\n\r\n\r\n\t<!--
+        CIVICA-CONTENT-END:bodypanel1 -->\r\n</div>\r\n\r\n\r\n\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n</div>\r\n\r\n\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2016\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice/dialog</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://ecouncil.wollondilly.nsw.gov.au/eservice/dialog/daEnquiry.do?dateFrom=08/05/2019&dateTo=15/05/2019&detDateFromString=&detDateToString=&houseNum=0%0A%09%09%09%09%09&lotNumber=&number=&planNumber=&propertyName=&searchMode=A&strataPlan=&streetName=&submitButton=Search&suburb=0&unitNum=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.4p296 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - JSESSIONID_live=0000RNuAGZ9mYlEOMX4JMTwpDvF:-1
+      Host:
+      - ecouncil.wollondilly.nsw.gov.au
+      Referer:
+      - https://ecouncil.wollondilly.nsw.gov.au/eservice/dialog/daEnquiryInit.do?nodeNum=40801
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache,no-store,max-age=0,must-revalidate,proxy-revalidate
+      Pragma:
+      - No-cache
+      Content-Type:
+      - text/html
+      Content-Language:
+      - en-AU
+      Expires:
+      - '0'
+      X-Powered-By:
+      - ARR/3.0
+      - ASP.NET
+      - ASP.NET
+      Date:
+      - Wed, 03 Jul 2019 06:38:03 GMT
+      Content-Length:
+      - '39093'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n      \r\n\t\r\n    \r\n\r\n\r\n\r\n\t\t\r\n\r\n\r\n
+        \     \r\n\t\r\n    \r\n    \r\n  \r\n\r\n\r\n  \r\n\r\n\r\n<!DOCTYPE HTML
+        PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"  \"http://www.w3.org/TR/html4/loose.dtd\">\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<html
+        lang=\"en-US\">\r\n\t<head>\r\n\t\t<meta http-equiv=\"Content-Type\" content=\"text/html;
+        charset=UTF-8\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1, maximum-scale=1\" />\r\n\t\t<title>\r\n\t\t\tWollondilly
+        Shire Council - Authority LIVE\r\n\t\t</title>\r\n\t\t<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/bootstrap-335.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/jquery-ui.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/jquery-ui.structure.min.css\" type=\"text/css\"
+        media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/jquery-ui.theme.min.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/e-services.css\" type=\"text/css\" media=\"screen,
+        projection, print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/calendar.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/daEnquiry_daEnquiryResults.css\" type=\"text/css\"
+        media=\"screen, projection\" >\r\n<!--[if IE 6]>\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/ie6.css\" type=\"text/css\" media=\"screen,
+        projection\" >\r\n<![endif]-->\r\n<!--[if IE 8]>\r\n<link rel=\"stylesheet\"
+        href=\"/eservice/dialog/library/ie8.css\" type=\"text/css\" media=\"screen,
+        projection\" >\r\n<![endif]-->\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/e-print.css\"
+        type=\"text/css\" media=\"print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/header-eserv.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n<link rel=\"stylesheet\"
+        href=\"/council/eservice/custom.css\" type=\"text/css\" media=\"screen, projection,
+        print\" >\r\n<link rel=\"stylesheet\" href=\"/eservice/dialog/library/hide-navigation.css\"
+        type=\"text/css\" media=\"screen, projection, print\" >\r\n\r\n\t\t<script>var
+        AUTHJS = {};AUTHJS.productName = \"i-Services\";</script>\r\n<script type=\"text/javascript\"
+        src=\"/eservice/dialog/jscalendar-1.0/calendar.js\"></script>\r\n<script type=\"text/javascript\"
+        src=\"/eservice/dialog/javascript/jquery/jquery-1.11.3.min.js\"></script>\r\n<script>AUTHJS.productName
+        = \"e-Services\";</script>\r\n<script type=\"text/javascript\" src=\"/eservice/dialog/javascript/tether-1.3.3.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/modernizr-283.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery/bootstrap-335.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery/jquery-ui-datepicker.min.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/e-services-page.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/prototype.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/civica.jquery.plugins.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/civica.common.init.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/civica.jquery.functions.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/util.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/json2.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/effects.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/controls.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/dragdrop.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/lightbox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/menu.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/menuScroll.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/sitemap.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery.imageTickBox.js\"></script>\r\n<script
+        type=\"text/javascript\" src=\"/eservice/dialog/javascript/jquery.metadata.js\"></script>\r\n\r\n\t\t<link
+        rel=\"shortcut icon\" href=\"favicon.ico\" />\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t</head>\r\n\t\r\n\t<body\r\n\t\t\r\n\t>\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<script
+        type=\"text/javascript\">\r\n\tvar initialTabPage= \"null\";\r\n\tjQuery(document).ready(function()
+        {\r\n\t\tif (initialTabPage != \"null\") {\r\n\t\t\tif (initialTabPage==\"sitemap\"){\r\n\t\t\t\tinitialTabPage=\"#sitemap-controller\";
+        \   \r\n\t\t\t} else {\r\n\t\t\t\tinitialTabPage=\"#dashboard-controller\";
+        \      \r\n\t\t\t}\r\n\t\t\tjQuery(initialTabPage + \" a.tab-clicker\").not(\".tabs-content
+        *\").click();\r\n\t\t}\r\n\t\t\r\n\t});\r\n\r\n\t(function() {\r\n\t\tvar
+        isBootstrapEvent = false;\r\n\t\tif (window.jQuery) {\r\n\t\t\tvar all = jQuery('*');\r\n\t\t\tjQuery.each(['hide.bs.dropdown',
+        \r\n\t\t\t\t'hide.bs.collapse', \r\n\t\t\t\t'hide.bs.modal', \r\n\t\t\t\t'hide.bs.tooltip',\r\n\t\t\t\t'hide.bs.popover',\r\n\t\t\t\t'hide.bs.tab'],
+        function(index, eventName) {\r\n\t\t\t\tall.on(eventName, function( event
+        ) {\r\n\t\t\t\t\tisBootstrapEvent = true;\r\n\t\t\t\t});\r\n\t\t\t});\r\n\t\t}\r\n\t\tvar
+        originalHide = Element.hide;\r\n\t\tElement.addMethods({\r\n\t\t\thide: function(element)
+        {\r\n\t\t\t\tif(isBootstrapEvent) {\r\n\t\t\t\t\tisBootstrapEvent = false;\r\n\t\t\t\t\treturn
+        element;\r\n\t\t\t\t}\r\n\t\t\t\treturn originalHide(element);\r\n\t\t\t}\r\n\t\t});\r\n\t})();\r\n</script>\r\n\r\n\r\n\r\n<!--
+        eServices -->\r\n\r\n\t<div id=\"page\" class=\" tabbed not-logged-in\">\r\n\r\n\t\r\n\r\n\r\n\t\t<div
+        id=\"masthead\" class=\"navbar navbar-static-top bs-docs-nav\">\r\n\t\t\t<div
+        class=\"container\" id=\"masthead-container\">\r\n\t\t\t\t<div class=\"navbar-header\">\r\n\t\t\t\t\t<a
+        class=\"navbar-brand\">\r\n\t\t\t\t\t\t<span>Wollondilly Shire Council</span>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\tWollondilly
+        Shire Council\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</a>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks start -->\r\n\t\t\t\t<div id=\"wrapper-quick-links\">\r\n\t\t\t\t\t<ul
+        id=\"quick-links\" class=\"nav navbar-nav navbar-right\">\r\n\t\t\t\t\t\t<li
+        class=\"top-link-home\">\r\n\t\t\t\t\t\t\t<a href=\"/eservice/dialog/navigationStart.do\"
+        id=\"quick-link-home\">\r\n\t\t\t\t\t\t\t\tHome\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<li
+        class=\"top-link-signin\">\r\n\t\t\t\t\t\t\t\t\t<a href=\"/eservice/dialog/logonInit.do\"
+        id=\"quick-link-signin\">\r\n\t\t\t\t\t\t\t\t\t\tSign In\r\n\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<li
+        class=\"top-link-user\">\r\n\t\t\t\t\t\t\t<a>\r\n\t\t\t\t\t\t\t\t<!-- masthead
+        User start -->\r\n\t\t\t\t                \r\n\t\t\t\t                    \r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t&nbsp;\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        masthead User end -->\r\n\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t</li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t</div>\r\n\t\t\t\t<!--
+        masthead Quicklinks end -->\r\n\t\t\t</div>\r\n\t\t\t<!-- End container -->\r\n\t\t</div>\r\n\t\t<!--
+        End Masthead -->\r\n\r\n\r\n\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\t<div
+        id=\"bcpanel\">\r\n\t\t\t<div class=\"container\" id=\"bcpanel-container\">\r\n\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\t<ul
+        id=\"breadcrumbs\">\r\n\r\n            \r\n\r\n            \r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t<li
+        >\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t
+        \   \r\n\t\t\t\t\t\t    \r\n\t\t\t            \t    <a href=\"/eservice/dialog/start.do?nodeNum=272&nodeNum=272\"
+        onclick=\"openSearchResultParent(272);return false;\">Development Applications</a>\r\n\t\t\t
+        \           \t\r\n\t\t\t            \r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t<li
+        class=\"last-node\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<a
+        href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801\">Development Application
+        Enquiry</a> \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t\t\r\n\t\t</ul>\t\t\t\r\n\t\t\r\n\r\n\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t\t<!--
+        End Masthead navbar -->\r\n\r\n\r\n\t\t<div id=\"content\">\r\n\r\n\t\t\t<div
+        class=\"container\" id=\"content-container\">\r\n\r\n\t\t\t\t<div class=\"row\"
+        id=\"main-row\">\r\n\r\n\t\t\t\t\t<div class=\"col-sm-3\" id=\"bstrap-leftnav\">\r\n\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>  \r\n\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t<div
+        id=\"admin-tabs\" >\r\n\t\t\t\t\t\t\t<div id=\"dashboard\" class=\"tabs-content\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<!--
+        START MENU CONTENT -->\r\n\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-toggle\">\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"menus-button\" class=\"btn btn-default\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<span
+        id=\"menus-button-inner\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<a id=\"menus-button-link\"
+        href=\"#\">Hide Menus</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t\t<div
+        id=\"site-access\" class=\"menu-on\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<ul
+        id=\"siteaccesspanel\">\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\r\n\t\t<li
+        id=\"siteaccesspanel_1\">\r\n\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t<h3
+        class=\"panel-handle\">Menu</h3>\r\n\t\t\t\t</div>\r\n\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\r\n\t\t\t\t<a
+        href=\"/eservice/dialog/menu/minimisePanel.do?id=1\" title=\"Minimise Panel\"
+        class=\"panel-min-max\" id=\"panel-min-max-1\" >\r\n<img src=\"/eservice/dialog/icons/minimise.gif\"
+        alt=\"Minimise\" />\r\n</a>\r\n\r\n\t\t\t\t</p>\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t<div
+        id=\"menu-search\">\r\n\t\t\t\t\t\t\t<form action=\"/eservice/dialog/menu/search.do\"
+        class=\"menu-search-form\">\r\n\t\t\t\t\t\t\t\t<p>\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input
+        type=\"text\" size=\"15\" name=\"search\" id=\"search\" class=\"field\"  value=\"Menu
+        Search\" />\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<input type=\"submit\"
+        id=\"menu-search-submit\" value=\"Go\" class=\"buttonCalendar\" />\r\n\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/dialog/icons/loading.gif\" alt=\"loading\" class=\"loading\"
+        id=\"menu-search-loading\" />\r\n\t\t\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t\t\t<!--
+        div id=\"search-autocomplete\" class=\"autocompleter\"></div -->\r\n\t\t\t\t\t\t\t</form>\r\n\t\t\t\t\t\t\t<div
+        id=\"search-results\" >\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\t\t\t<div
+        id=\"scrollingMenuContainer\" class=\"scrolling-container\">\r\n\t\t\t\t<ul
+        id=\"navigation\">\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t<li
+        class=\"nav-return\" title=\"Back one menu level\"><a href=\"/eservice/dialog/navigationStart.do\"
+        id=\"node-0\"><img src=\"/eservice/dialog/icons/parent.gif\" alt=\"Return
+        to \" />Development Applications                          </a></li>\r\n\t\t\r\n\t\r\n\r\n\t\r\n\r\n\t\r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n
+        \       \r\n    \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiry/currentlyAdvertised.do?nodeNum=273\"
+        class=\"linkitem\" id=\"node-273\">Advertised Applications</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiry/recentlyDetermined.do?num_days=31&nodeNum=274\"
+        class=\"linkitem\" id=\"node-274\">Determined Applications</a>\r\n        </li>\r\n
+        \ \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n    \t    <li
+        class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiryInit.do?doc_typ=18&nodeNum=43785\"
+        class=\"linkitem\" id=\"node-43785\">Complying Development Enquiry</a>\r\n
+        \       </li>\r\n  \r\n\t\t\r\n\t\t\r\n\t\t\t\t\t\t\t\t\r\n\t\t\r\n        \r\n
+        \   \t    <li class='java'>\r\n    \t\r\n\t       <a href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801\"
+        class=\"linkitem\" id=\"node-40801\">Development Application Enquiry</a>\r\n
+        \       </li>\r\n  \r\n\r\n\r\n\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t\r\n\t\t\t
+        \r\n\t\t\t</div>\r\n\t\t</li>\r\n\t\r\n\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\r\n\t\r\n\t\r\n\t\t\t<li
+        id=\"siteaccesspanel_3\">\r\n\t\t\t\t<div class=\"menu-group\">\r\n\t\t\t\t\t<div
+        class=\"menu-header-panel\" title=\"Drag to change panel order\">\r\n\t\t\t\t\t\t<h3
+        class=\"panel-handle\">History</h3>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<p class=\"menu-handlers\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/dialog/menu/movePanel.do?id=2\" title=\"Panel Up\" class=\"panel-up\">\r\n\t\t\t\t\t\t\t\t\t\t<img
+        src=\"/eservice/dialog/icons/panel_move_up.gif\" alt=\"Up\" /></a>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<a
+        href=\"/eservice/dialog/menu/minimisePanel.do?id=2\" title=\"Minimise Panel\"
+        class=\"panel-min-max\" id=\"panel-min-max-2\" >\r\n<img src=\"/eservice/dialog/icons/minimise.gif\"
+        alt=\"Minimise\" />\r\n</a>\r\n\r\n\t\t\t\t\t</p>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t<ul
+        id=\"recently-used\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<li id=\"recently-used-0\">\r\n
+        \                               <a href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801\"
+        class=\"linkitem\">Development Application Enquiry</a>\r\n                                \r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</li>\r\n\t\r\n\r\n\r\n\t\t\t\r\n\r\n\t\t\t\r\n\t\t\t\t\r\n\t\t\t\r\n\r\n\t\t\t\r\n\r\n\t\r\n</ul>\r\n<script
+        type=\"text/javascript\">\r\n\t//Drag n Drop panels\r\n\tSortable.create('siteaccesspanel',
+        {handle: 'panel-handle', onUpdate:function(){new Ajax.Request(webContextPath
+        + '/resequencePanels.do', {method: 'post', parameters:Sortable.serialize('siteaccesspanel')})}});\r\n</script>\r\n\r\n<p
+        id=\"scroll-trigger\">10</p>\r\n<p id=\"alternate-scroll-trigger\"></p>\r\n<p
+        id=\"pixel-height-base-rate-for-list-item\">24</p>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t<div
+        class=\"col-sm-9\" id=\"bstrap-main\">\r\n\t\t\t\t\t\t<div id=\"main-content\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t<div
+        class=\"transaction-area\" id=\"transaction-area\"></div>\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<!--
+        END MENU CONTENT -->\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"unique-content\"
+        id=\"daEnquiry_daEnquiryResults\">\r\n<div class=\"daEnquirySpecific\" id=\"daEnquiry_daEnquiryResultsDocumentTypeDefaultTypes\">\r\n\r\n\t\t\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\t\r\n\t\t<h1
+        class=\"functionHeader\">\r\n\t\t\t\r\n          \r\n          \r\n              Development
+        Application Enquiry\r\n          \r\n\t\r\n\t\t\t\r\n\t\t</h1>\r\n\t\r\n\t\r\n\t<div
+        id=\"fullcontent\" class=\"no_form\">\r\n\t\r\n\t\r\n\r\n\r\n\t\t\r\n\r\n\r\n\r\n\r\n\r\n<div
+        class=\"infopanel\">    \r\n\t<!-- CIVICA-INFO-START -->   \r\n\t\r\n        <div
+        id=\"infopanel-header\">\r\n\t        <h4 class=\"entryHeader\" >\r\n\t            Instructions\r\n\t
+        \       </h4>\r\n        </div>\r\n\t\r\n    <div id=\"instructions-content\"
+        class=\"instructions\">\r\n\r\n        \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\t\r\n\t\r\n\t\r\n
+        \     Click on the Development Application to see further detail. To display
+        these results in a different order, select from the options below and click
+        the 'Sort' button.\t\r\n\t      \t\r\n\t   \t  \r\n\t         <p><label>Documents
+        Found&nbsp;21</label></p>      \r\n\t   \r\n\t   \r\n\t    \r\n\t\t\t  <div
+        id=\"sortForm\">\r\n\t\t\t  \t\r\n\t\t      \t\t<form name=\"registerEnquirySortForm\"
+        method=\"post\" action=\"/eservice/dialog/daEnquirySort.do\">\r\n\t\t\t\t\t\t<fieldset>\r\n\t\t\t\t
+        \ \t\t\t<legend>Sort</legend>\r\n\t\t\t\t  \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span
+        id=\"sortByDatereceivedOption\">\r\n\t\t\t\t  \t\t\t\t\t<input type=\"radio\"
+        name=\"sortBy\" value=\"1\" id=\"sortByDatereceived\" />\r\n\t\t\t\t  \t\t\t\t\t<label
+        class=\"nobold\" for=\"sortByDatereceived\">\r\n\t\t\t\t  \t\t\t\t\t\tReceived
+        Date\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortByLocationOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"2\" id=\"sortByLocation\"
+        checked/>\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortByLocation\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tLocation\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortByApplicationNumberOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"3\" id=\"sortByApplicationNumber\"
+        />\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortByApplicationNumber\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tApplication No.\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortBySuburbOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"4\" id=\"sortBySuburb\"
+        />\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortBySuburb\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tSuburb\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortByUnitHouseNumberOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"5\" id=\"sortByUnitHouseNumber\"
+        />\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortByUnitHouseNumber\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tUnit/House Number\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortByStreetNameOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"6\" id=\"sortByStreetName\"
+        />\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortByStreetName\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tStreet\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortBySummaryOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"7\" id=\"sortBySummary\"
+        />\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortBySummary\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tType Of Work\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t\t\r\n\t\t\t\t\t\t\t\t<span id=\"sortByDeterminationOption\">\r\n\t\t\t\t
+        \ \t\t\t\t\t<input type=\"radio\" name=\"sortBy\" value=\"8\" id=\"sortByDetermination\"
+        />\r\n\t\t\t\t  \t\t\t\t\t<label class=\"nobold\" for=\"sortByDetermination\">\r\n\t\t\t\t
+        \ \t\t\t\t\t\tDecision\r\n\t\t\t\t  \t\t\t\t\t</label>\r\n\t\t\t\t\t\t\t\t</span>\r\n\t\t\t\t
+        \ \t\t\t\r\n\t\t\t\t  \t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t  \t<input
+        type=\"submit\" name=\"submit\" value=\"Sort\" class=\"button\" />\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</fieldset>\r\n\t\t\t
+        \ \t\t</form>\r\n\t\t\t  \t\r\n\t\t\t  </div>\r\n\t  \r\n\t\r\n\t\r\n\t\r\n\r\n
+        \   </div>\r\n\r\n\t<!-- CIVICA-INFO-END -->\r\n</div>\r\n\r\n\r\n\t\t\r\n\t\t\t\r\n\t\t\r\n<div
+        \ class=\"bodypanel\" id=\"bodypanel1\">\r\n\t<!-- CIVICA-CONTENT-START:bodypanel1
+        -->\r\n\t\t</div>\r\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div><h4
+        class=\"non_table_headers\"><a class=\"plain_header\" href=\"/eservice/dialog/daEnquiryDetails.do?index=0\">1315
+        Barkers Lodge Road OAKDALE  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span
+        class=\"key\">Type of Work</span><span class=\"inputField\">Dual occupancy
+        (attached) including conversion of existing dwelling to non-habitable outbuilding,
+        proposed shed, tree removal and associated works</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Mr T J Bates,Mr T
+        R Slater,Mrs M L Slater</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">Wollondilly Shire Council</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">249/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$879,640.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=1\">35 Binalong Road BELIMBLA
+        PARK  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Addition to Dwelling, Shed &amp;
+        Shipping Container</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">CA Design</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">259/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$200,000.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=2\">23 Birtle Street THE
+        OAKS  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Ancillary Building to Dwelling (Shed)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Mr
+        B A Fardella,Ms S E Bailey</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">254/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$10,555.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=3\">8 Blue Wren Place OAKDALE
+        \ NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">S68 Solid Fuel Heater</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Mrs
+        A L Young</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">253/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$2,500.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">23/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=4\">47C Burragorang Road
+        NATTAI  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Manufactured Dwelling</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Hi
+        Tech Homes</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">Wollondilly Shire Council</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">256/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">13/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$162,386.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=5\">33 Chalker Street THIRLMERE
+        \ NSW  2572</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Dwelling &amp; secondary dwelling
+        &amp; associated works</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Ms N J Norton</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">Wollondilly Shire
+        Council</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">263/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$434,800.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=6\">55 Charles Road PHEASANTS
+        NEST  NSW  2574</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Ancillary Building to Dwelling (Shed)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Ranbuild
+        Southern Highlands</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">266/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$26,221.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">14/06/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=7\">2 Chaseling Place THE
+        OAKS  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Two (2) Lot Subdivision &amp; Removal
+        of Swimming Pool</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Mr R J Menz,Mrs M J Menz</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">Wollondilly Shire
+        Council</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">255/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">13/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$17,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Rejected Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">17/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=8\">17 Cumbria Street THIRLMERE
+        \ NSW  2572</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">S4.55 - Design Changes</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Domaine
+        Homes NSW Pty Ltd</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">186/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">13/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">14/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=9\">8 Gumtree Terrace TAHMOOR
+        \ NSW  2573</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Dwelling House</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Mr A F Ibaceta,Mrs
+        P I Ibaceta</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">258/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">14/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$586,848.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">22/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=10\">12 Gumtree Terrace
+        TAHMOOR  NSW  2573</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">S68 AWTS - Subsurface Irrigation</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Ms
+        L Morvillo</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">Wollondilly Shire Council</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">251/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$6,100.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">15/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=11\">14 Hawthorne Road BARGO
+        \ NSW  2574</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Ancillary Building to Dwelling (Shed)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Mr
+        P J Donnelly</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">Wollondilly Shire Council</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">261/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$4,800.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">20/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=12\">68 Kader Street BARGO
+        \ NSW  2574</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">New single storey dwelling , attached
+        granny flat &amp; ancillary structure</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Vogue Homes</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span class=\"inputField\">TBA</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">265/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$509,985.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">02/07/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=13\">34 Marsh Road SILVERDALE
+        \ NSW  2752</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Dwelling Additions</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Applicant</span><span class=\"inputField\">Inkon Plans</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span class=\"inputField\">TBA</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">257/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">14/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">03/06/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=14\">15 Menangle Road MENANGLE
+        \ NSW  2568</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Construction of an exhibition home
+        and car parking area, pathway and associated landscaping, installation of
+        pylon sign, fencing and amenities block. Conversion of exhibition home into
+        a dwelling and removal of car parking area, signage, fencing and amenities
+        block post operation.</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Mirvac Homes (NSW) Pty Ltd</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">TBA</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">262/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$513,758.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=15\">90 Old Oaks Road THE
+        OAKS  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">S68 AWTS - Subsurface Irrigation</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Mr
+        M Parkin</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">TBA</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">260/2019</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$16,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">21/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=16\">250 Picton Road RAZORBACK
+        \ NSW  2571</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Earthworks &amp; decommissioning
+        of dam</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Mr W G Holz,Mrs M Holz</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">TBA</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">252/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">10/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$40,200.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=17\">770 Silverdale Road
+        WEROMBI  NSW  2570</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Modification - extension of building
+        envelope</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Mrs S A Fetterplace</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">TBA</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">316/1997</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">25/06/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=18\">38 St Heliers Road
+        SILVERDALE  NSW  2752</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Ancillary Building to Dwelling (Shed)</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span class=\"inputField\">Mr
+        C R Davies</span></p><p class=\"rowDataOnly\"><span class=\"key\">Certifier</span><span
+        class=\"inputField\">Wollondilly Shire Council</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Application No.</span><span class=\"inputField\">264/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">15/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$7,000.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Approved under Delegation</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">23/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=19\">18 Torumba Circuit
+        SILVERDALE  NSW  2752</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Modification of retaining walls on
+        all boundaries</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Mr V Scerri,Mrs A Scerri</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">Accredited Building
+        Certifiers</span></p><p class=\"rowDataOnly\"><span class=\"key\">Application
+        No.</span><span class=\"inputField\">755/2018</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p></div><p
+        class=\"rowDataOnly\"> </p><h4 class=\"non_table_headers\"><a class=\"plain_header\"
+        href=\"/eservice/dialog/daEnquiryDetails.do?index=20\">440 Wilton Park Road
+        WILTON  NSW  2571</a></h4><div><p class=\"rowDataOnly\"><span class=\"key\">Type
+        of Work</span><span class=\"inputField\">Continued use of part of the site
+        as a freight transport facility</span></p><p class=\"rowDataOnly\"><span class=\"key\">Applicant</span><span
+        class=\"inputField\">Urbanesque Planning Pty Ltd</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Certifier</span><span class=\"inputField\">TBA</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Application No.</span><span class=\"inputField\">250/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Date Lodged</span><span class=\"inputField\">09/05/2019</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Cost of Work</span><span class=\"inputField\">$0.00</span></p><p
+        class=\"rowDataOnly\"><span class=\"key\">Determination Details</span><span
+        class=\"inputField\">Rejected Development Application</span></p><p class=\"rowDataOnly\"><span
+        class=\"key\">Determination Date</span><span class=\"inputField\">17/05/2019</span></p></div><p
+        class=\"rowDataOnly\"> </p><div class=\"button-panel\"><a href=\"/eservice/dialog/daEnquiryInit.do?nodeNum=40801&amp;goingBack=true\">New
+        Search</a></div></div>\r\n<div>\r\n\r\n\t<!-- CIVICA-CONTENT-END:bodypanel1
+        -->\r\n</div>\r\n\r\n\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n\t\t\r\n</div>\r\n\t\t\t\t\t\t\t</div>\r\n</div>\r\n
+        \    \r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</div>\r\n\t\t\t</div>
+        <!-- container -->\r\n\t\t</div> <!-- content -->\r\n\r\n\t\t<div id=\"bottom\"
+        class=\"tabbed\">\r\n\t\t\t<div class=\"container\" id=\"bottom-container\">\r\n\t\t\t\t<div
+        class=\"row\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div class=\"footer\">\r\n\t\t\t\t\t\t<p>&#169;
+        Civica Pty. Ltd. 2016\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t</p>\r\n\t\t\t\t\t\t<p
+        id=\"web-context-path\">/eservice/dialog</p>\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\r\n\t</div>\r\n\t<!--
+        End page div -->\r\n\r\n\r\n\t\r\n\r\n<!-- End Bootstrap eServices -->\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n<!--
+        iServices -->\r\n\r\n\t</body>\r\n</html>\r\n\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
