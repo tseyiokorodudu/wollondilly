@@ -1,4 +1,2 @@
 # Ignore output of scraper
 *.sqlite
-vendor
-.bundle

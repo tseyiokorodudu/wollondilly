@@ -1,1 +1,1 @@
-This scraper has been merged into planningalerts-scrapers/multiple_civica (wollondilly)
+Wollondilly now has a custom web application which has an API. So, we're using that.
