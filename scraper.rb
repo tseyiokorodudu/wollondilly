@@ -14,7 +14,6 @@ root_url = "https://tracking.wollondilly.nsw.gov.au"
 url = "#{root_url}/api/app"
 
 agent = Mechanize.new
-page = agent.get(url)
 
 if ENV["MORPH_AUSTRALIAN_PROXY"]
   # On morph.io set the environment variable MORPH_AUSTRALIAN_PROXY to
@@ -23,6 +22,9 @@ if ENV["MORPH_AUSTRALIAN_PROXY"]
   puts "Using Australian proxy..."
   agent.agent.set_proxy(ENV["MORPH_AUSTRALIAN_PROXY"])
 end
+
+page = agent.get(url)
+
 
 result = JSON.parse(page.body)
 
