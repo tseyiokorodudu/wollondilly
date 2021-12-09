@@ -16,11 +16,19 @@ url = "#{root_url}/api/app"
 agent = Mechanize.new
 page = agent.get(url)
 
+if ENV["MORPH_AUSTRALIAN_PROXY"]
+  # On morph.io set the environment variable MORPH_AUSTRALIAN_PROXY to
+  # http://morph:password@au.proxy.oaf.org.au:8888 replacing password with
+  # the real password.
+  puts "Using Australian proxy..."
+  agent.agent.set_proxy(ENV["MORPH_AUSTRALIAN_PROXY"])
+end
+
 result = JSON.parse(page.body)
 
 result.each do |a|
   date_received = parse_date(a["rec_dte"])
-  if date_received >= Date.today - 30
+  if date_received && date_received >= Date.today - 30
     record = {
       "council_reference" => a["fmt_acc2"],
       "address" => a["prm_adr"] + ", NSW",
